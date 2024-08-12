@@ -7,10 +7,10 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('6579978027:AAHObzcAc21Sb1nMBPpyN4LthbMP0AeuCV4')
+bot = telebot.TeleBot('7026113454:AAHYu1mv7DlWdPyJVXAINr5Yyq9pTv8gsxI')
 
 # Admin user IDs
-admin_id = ["7080338910,6864978269,736204392"]
+admin_id = ["1795306025"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -285,8 +285,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @Mrkaushikhaxor
-Official Channel :- t.me/KaushikCracking
+Buy From :- @Arsh5800
+Official Channel :- not working 
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -303,7 +303,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''👋🏻Welcome to Your Home, {user_name}! Feel Free to Explore.
 🤖Try To Run This Command : /help 
-✅Join :- t.me/KaushikCracking
+✅Join :- not working 
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -327,9 +327,9 @@ Vip 🌟 :
 -> Concurrents Attack : 3
 
 Pr-ice List💸 :
-Day-->300 Rs
-Week-->1000 Rs
-Month-->2000 Rs
+Day-->50 Rs
+Week-->400 Rs
+Month-->100 Rs
 '''
     bot.reply_to(message, response)
 
